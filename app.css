@@ -1,10 +1,18 @@
 h1 {
-    color : #ff7844;
-}
-li {
-    color: green;
+    color : rgba(0, 200, 100, 0.8);
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+
+    border : 5px solid purple;
 }
 h4 {
-    color: purple;
+    background: rgb(255, 100, 80);
 }
+body {
 
+    /* background: url(http://moziru.com/images/drawn-wood-3.jpg);
+    background-repeat: no-repeat;
+    background-size : cover; */
+    background: pink;
+}
