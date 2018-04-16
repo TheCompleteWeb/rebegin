@@ -47,3 +47,13 @@ function max(arr){
 max([1,2,3]);
 max([10,2,4,3,40]);
 max([190, -5]);
+
+function myForEach(arr, func){
+    for(var i = 0; i < arr.length; i++){
+        func(arr[i]);
+    }
+}
+
+var colors = ["red", "orange", "yellow"];
+
+myForEach(colors, console.log);
