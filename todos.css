@@ -1,16 +1,4 @@
-body {
-    background: orange;
-}
-
-li {
-    border : 2px solid  red;
-}
-
-#special {
-    background-color: yellow;
-
-}
-.completed {
-
+.done {
     text-decoration: line-through;
+    opacity: 0.5;
 }
